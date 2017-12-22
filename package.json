@@ -1,0 +1,30 @@
+{
+  "name": "empman",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/electron-starter.js",
+  "homepage": "./",
+  "dependencies": {
+    "antd": "2.13.11",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-router-dom": "4.2.2",
+    "socket.io-client": "2.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "0.8.5",
+    "electron": "1.7.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@139.129.239.149:dvtrend/vision.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "PORT=3008 react-scripts start",
+    "build": "react-scripts build",
+    "test": "serve -s build",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3008 electron ."
+  }
+}
