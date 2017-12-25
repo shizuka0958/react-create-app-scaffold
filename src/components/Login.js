@@ -11,7 +11,7 @@ class Login extends React.Component {
         return (
             <div>
                 <h3>login</h3>
-                <button onClick={()=>{this.props.history.push('/user')}}><Link to="/user">login</Link></button>
+                <button onClick={()=>{this.props.history.push('/user')}}>login</button>
             </div>
         );
     }
